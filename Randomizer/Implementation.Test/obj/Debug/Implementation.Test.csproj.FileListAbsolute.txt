@@ -1,0 +1,11 @@
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\bin\Debug\Implementation.Test.dll
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\bin\Debug\Implementation.Test.pdb
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\bin\Debug\Implementation.dll
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\bin\Debug\nunit.framework.dll
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\bin\Debug\Implementation.pdb
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\bin\Debug\nunit.framework.xml
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\obj\Debug\Implementation.Test.csprojResolveAssemblyReference.cache
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\obj\Debug\Implementation.Test.dll
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\obj\Debug\Implementation.Test.pdb
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\bin\Debug\Model.dll
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Implementation.Test\bin\Debug\Model.pdb

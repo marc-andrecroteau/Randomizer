@@ -1,0 +1,5 @@
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Model\bin\Debug\Model.dll
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Model\bin\Debug\Model.pdb
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Model\obj\Debug\Model.dll
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Model\obj\Debug\Model.pdb
+K:\Documents\Personnel\Programmation\C#\Randomizer\Randomizer\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
