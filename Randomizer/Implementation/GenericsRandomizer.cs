@@ -24,7 +24,8 @@ namespace Implementation
                 {typeof (List<Bar>), RandomizeList},
                 {typeof (List<List<Bar>>), RandomizeList},
                 {typeof (List<IBar>), RandomizeList},
-                {typeof (IList<Bar>), RandomizeList}
+                {typeof (IList<Bar>), RandomizeList},
+                {typeof (List<List<List<Bar>>>), RandomizeList}
             };
 
             return dictionary;
@@ -51,7 +52,7 @@ namespace Implementation
                 return (T) function.Invoke(obj);
             }
 
-            throw new NotImplementedException("Key not found");
+            throw new NotImplementedException(obj.GetType().Name + " Type Key not found");
         }
 
         #endregion

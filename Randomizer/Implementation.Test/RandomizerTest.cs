@@ -66,6 +66,17 @@ namespace Implementation.Test
         }
 
         [Test]
+        public void RandomizeIListBarIBarFoo()
+        {
+            var bars = new List<List<List<Bar>>>();
+            var prototype = new List<List<List<Bar>>>();
+
+            bars = Randomizer.Randomize(bars);
+
+            Assert.IsFalse(bars.SequenceEqual(prototype));
+        }
+
+        [Test]
         public void RandomizeListListBar()
         {
             var bars = new List<List<Bar>>();
