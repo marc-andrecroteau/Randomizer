@@ -44,10 +44,21 @@ namespace Implementation.Test
         }
 
         [Test]
-        public void RandomizeListBar()
+        public void RandomizeIListBar()
         {
             var bars = new List<Bar>() as IList<Bar>;
             var prototype = new List<Bar>() as IList<Bar>;
+
+            bars = Randomizer.Randomize(bars);
+
+            Assert.IsFalse(bars.SequenceEqual(prototype));
+        }
+
+        [Test]
+        public void RandomizeListIBar()
+        {
+            var bars = new List<IBar>();
+            var prototype = new List<IBar>();
 
             bars = Randomizer.Randomize(bars);
 

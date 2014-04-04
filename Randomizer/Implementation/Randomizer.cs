@@ -7,17 +7,23 @@ namespace Implementation
 {
     public static class Randomizer
     {
+        #region Fields
+
         private static readonly Random _Random = new Random();
         private static readonly IDictionary<Type, Func<object>> _Functions = InitializeMethodForEachSupportedType();
+
+        #endregion
+
+        #region Core Methods
 
         private static IDictionary<Type, Func<object>> InitializeMethodForEachSupportedType()
         {
             var dictionary = new Dictionary<Type, Func<object>>
             {
-                {typeof(double), RandomizeDouble},
-                {typeof(int), RandomizeInt},
-                {typeof(Int64), RandomizeInt},
-                {typeof(string), RandomizeString}
+                {typeof (double), RandomizeDouble},
+                {typeof (int), RandomizeInt},
+                {typeof (Int64), RandomizeInt},
+                {typeof (string), RandomizeString}
             };
 
             return dictionary;
@@ -50,7 +56,7 @@ namespace Implementation
 
             if (_Functions.TryGetValue(obj.GetType(), out function))
             {
-                return (T)function.Invoke();
+                return (T) function.Invoke();
             }
 
             throw new NotImplementedException("Key not found");
@@ -63,6 +69,10 @@ namespace Implementation
                 propertyInfo.SetValue(obj, Randomize(propertyInfo.GetValue(obj, null)));
             }
         }
+
+        #endregion
+
+        #region Randomize Methods
 
         public static object RandomizeDouble()
         {
@@ -83,5 +93,7 @@ namespace Implementation
         {
             return _Random.NextDouble().ToString(CultureInfo.InvariantCulture);
         }
+
+        #endregion
     }
 }

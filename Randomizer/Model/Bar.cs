@@ -1,6 +1,6 @@
 ﻿namespace Model
 {
-    public class Bar
+    public class Bar : IBar
     {
         public int Number { get; set; }
         public double Ratio { get; set; }
